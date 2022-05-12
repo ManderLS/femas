@@ -83,12 +83,18 @@ Femas实现了对主流开源注册中心(目前支持`Consul、nacos、eureka`)
 
 ### 单机部署
 
-为了方便用户使用，femas提供打包编译好的tar供用户一键启动。
-> cd femas-console/femas-admin/bin
+源码编译方式启动：
+```
+mvn -Dmaven.test.skip=true clean install -U
+
+cd femas-admin-starter/target/femas-admin-starter-$version/femas-admin/bin
+
+sh startup.sh
+```
 
 控制台配置：
 项目配置文件在`femas-admin/conf`目录下
-> cd femas-console/femas-admin/conf
+> cd femas-admin-starter-$version/femas-admin/conf
 
 控制台配置主要包含：
 - 服务端口
@@ -252,8 +258,8 @@ circuitBreaker:
 > 详情参见下文官方文档
 
 ## 文档
-#### [官方文档](https://polarismesh.cn/#/)
-#### [FAQ]()
+#### [官方文档](http://femas.io/)
+#### [FAQ](http://femas.io/doc/community/FAQ.html)
 #### [贡献手册](./CONTRIBUTING.md)
 #### [行为准则](./Code-of-Conduct.md) 
 
@@ -273,6 +279,7 @@ circuitBreaker:
 ## 联系我们
 ![image](https://user-images.githubusercontent.com/22976760/153163498-07f62802-18b3-4e74-94ff-32855d542281.png)
 
+![image](https://user-images.githubusercontent.com/22976760/160102336-bffd2c4b-b3c7-4830-8623-92b39f102fb4.png)
 
 ## 许可证
 [LICENSE.](./LICENSE)

@@ -9,7 +9,7 @@ import java.util.Comparator;
 import java.util.Enumeration;
 
 /**
- * @ClassName IPUtils
+ * @ClassName
  * @Author Leo
  * @Description //TODO
  **/
@@ -49,7 +49,4 @@ public class IPUtils {
         return null;
     }
 
-    public static void main(String[] args) {
-        System.out.println(getIpAddress());
-    }
 }

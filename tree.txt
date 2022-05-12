@@ -1,0 +1,39 @@
+.
+├── checkstyle
+├── doc
+├── entrypoint.sh
+├── femas-adaptor
+│   └── femas-adaptor-opensource-admin
+├── femas-api
+├── femas-benchmark
+├── femas-common
+├── femas-config
+├── femas-config-impl
+│   ├── femas-config-consul
+│   ├── femas-config-nacos
+│   └── femas-config-paas
+├── femas-console
+│   ├── femas-admin
+├── femas-dependencies-bom
+├── femas-example
+│   ├── femas-example-springcloud-2020-consumer
+│   ├── femas-example-springcloud-2020-provider
+│   ├── femas-example-springcloud-greenwich-consumer
+│   ├── femas-example-springcloud-greenwich-gateway
+│   ├── femas-example-springcloud-greenwich-provider
+│   └── femas-example-springcloud-greenwich-zuul
+├── femas-extensions
+│   └── femas-extension-springcloud
+├── femas-governance
+├── femas-governance-impl
+├── femas-helm
+├── femas-registry
+├── femas-registry-impl
+│   ├── femas-registry-consul
+│   ├── femas-registry-eureka
+│   ├── femas-registry-k8s
+│   ├── femas-registry-nacos
+│   └── femas-registry-polaris
+├── femas-starters
+│   └── femas-springcloud-starters
+└── jacoco-aggregate
